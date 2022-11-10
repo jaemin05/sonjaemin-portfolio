@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Son Jaemin Portfolio</title>
 
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/profile/image1.png" type="image/x-icon">
 
   <!--
     - custom css link
@@ -27,1170 +27,999 @@
 
 <body>
 
+<!--
+  - #MAIN
+-->
+
+<main>
+
   <!--
-    - #MAIN
+    - #SIDEBAR
   -->
 
-  <main>
+  <aside class="sidebar" data-sidebar>
 
-    <!--
-      - #SIDEBAR
-    -->
+    <div class="sidebar-info">
 
-    <aside class="sidebar" data-sidebar>
+      <figure class="avatar-box">
 
-      <div class="sidebar-info">
+          <img src="./assets/images/profile/profile_image.jpg" alt="Son Jaemin" width="80" style="border-radius: 12px" >
 
-        <figure class="avatar-box">
-          <img src="./assets/images/profile/profile_image.jpg" alt="Son Jaemin" width="80">
-        </figure>
+      </figure>
 
-        <div class="info-content">
-          <h1 class="name" title="Son Jaemin">Son Jaemin</h1>
+      <div class="info-content">
+        <h1 class="name" title="Son Jaemin">Son Jaemin</h1>
 
-          <p class="title">Backend developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
+        <p class="title">Backend developer</p>
       </div>
 
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:richard@example.com" class="contact-link">thswoals3518@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">010-3518-5014</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">November 4, 2005</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Daejeon, Korea</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/jaemin05" target="_blank" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/jae._min5" target="_blank" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>Profile</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projecst</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Others</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">Profile</h2>
-        </header>
-
-        <section class="about-text">
-          <h3>
-            1. 새로운 정보와 지식을 쌓는 것을 즐기는 사람입니다.
-          </h3>
-          <p>
-            저는 호기심이 많은 사람입니다. 몰랐던 것을 알아가면서 느끼는 희열로 인해 또 다른 새로운 것을 찾고 지식을 쌓아가고 있습니다.</br> 
-            만약 처음 하거나 어려운 문제가 발생하면 해결할 자신이 있습니다!
-          </p>
-
-          <h3>
-            2. 자유롭지만 책임감 있는 사람입니다.
-          </h3>
-          <p>
-            저는 프로젝트를 진행하면서 가장 중요한 것이 책임감이라고 생각합니다.</br>
-            프로젝트를 진행하면서 몸소 느꼈고, 그것을 바탕으로 매 순간 최선을 다하는 개발자가 되려고 노력하고 있습니다.
-          </p>
-
-          <h3>
-            3. 끊임없이 노력하는 사람입니다.
-          </h3>
-          <p>
-            ‘산을 움직이려 하는 이는 작은 돌을 들어내는 일로 시작하느니라.’라는 공자의 명언이 있습니다.</br>
-            저는 매일 작은 돌이라도 옮기기 위해서 매일 아침에 할 일을 정리하고 있습니다. 정리한 내용을 이루기 위해서 끊임없이 공부하고, 개발하고 있습니다.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
-
-              <span>2007 — 2008</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
-
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Show Contacts</span>
+
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
 
     </div>
 
-  </main>
+    <div class="sidebar-info_more">
 
+      <div class="separator"></div>
 
+      <ul class="contacts-list">
 
+        <li class="contact-item">
 
+          <div class="icon-box">
+            <ion-icon name="mail-outline"></ion-icon>
+          </div>
 
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+
+            <a href="mailto:thswoals3518@gmail.com" class="contact-link">thswoals3518@gmail.com</a>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="phone-portrait-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Phone</p>
+
+            <p class="contact-link">010-3518-5014</p>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="calendar-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Birthday</p>
+
+            <time datetime="1982-06-23">11 4, 2005</time>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="location-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Location</p>
+
+            <address>Daejeon, Korea</address>
+          </div>
+
+        </li>
+
+      </ul>
+
+      <div class="separator"></div>
+
+      <ul class="social-list">
+
+        <li class="social-item">
+          <a href="https://github.com/jaemin05" target="_blank" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a href="https://www.instagram.com/jae._min5" target="_blank" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </aside>
 
   <!--
-    - custom js link
+    - #main-content
   -->
-  <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <div class="main-content">
+
+    <!--
+      - #NAVBAR
+    -->
+
+    <nav class="navbar">
+
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <button class="navbar-link  active" data-nav-link>Profile</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Resume</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Portfolio</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Others</button>
+        </li>
+
+      </ul>
+
+    </nav>
+
+    <!--
+      - #ABOUT
+    -->
+
+    <article class="profile  active" data-page="profile">
+
+      <header>
+        <h2 class="h2 article-title">Profile</h2>
+      </header>
+
+      <section class="about-text">
+        <h2>
+          1. 새로운 정보와 지식을 쌓는 것을 즐기는 사람입니다.
+        </h2>
+        <p>
+          저는 호기심이 많은 사람입니다. <br/>
+          몰랐던 것을 알아가면서 느끼는 희열로 인해 또 다른 새로운 것을 찾고 지식을 쌓아가고 있습니다. <br/>
+          만약 처음 하거나 어려운 문제가 발생하면 해결할 자신이 있습니다!
+        </p>
+
+        <h2>
+          2. 자유롭지만 책임감 있는 사람입니다.
+        </h2>
+        <p>
+          저는 프로젝트를 진행하면서 가장 중요한 것이 책임감이라고 생각합니다.<br/>
+          프로젝트를 진행하면서 몸소 느꼈고, 그것을 바탕으로 매 순간 최선을 다하는 개발자가 되려고 노력하고 있습니다.
+        </p>
+
+        <h2>
+          3. 끊임없이 노력하는 사람입니다.
+        </h2>
+        <p>
+          ‘산을 움직이려 하는 이는 작은 돌을 들어내는 일로 시작하느니라.’라는 공자의 명언이 있습니다.<br/>
+          저는 매일 작은 돌이라도 옮기기 위해서 매일 아침에 할 일을 정리하고 있습니다. <br/>
+          또한 정리한 내용을 이루기 위해서 끊임없이 공부하고, 개발하고 있습니다.
+        </p>
+
+        <p class="timeline-text">
+          <a href="https://www.notion.so/Jaemin-Son-932fb27d16ae4d619c8f257b78315382" target="_blank" class="timeline-link"
+             style="color:  #E1E1E1; text-decoration:underline" >
+            노션에 더 자세한 내용을 정리했습니다!  (클릭시 노션 페이지로 넘어갑니다)<br>
+          </a>
+        </p>
+      </section>
+
+
+      <!--
+        - service
+      -->
+
+      <section class="service">
+
+        <h3 class="h3 service-title">What i'm doing</h3>
+
+        <ul class="service-list">
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/profile/note.webp
+                " alt="design icon" width="40" style="border-radius: 12px">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Study</h4>
+
+              <p class="service-item-text">
+                백엔드 공부를 시작할 때에는 ‘모르면 구글링을 하라’는 말을 듣고 무작정 백엔드 로드맵을 검색하고 그에 따라 공부했습니다.<br/>
+                일주일 정도는 변화가 거의 없다고 느껴져서 반신반의했지만, 한 달 정도가 지난 후 성장해 있는 모습을 확인할 수 있었습니다.<br/>
+                성장함을 느꼈을 때의 그 희열은 말로 표현할 수 없는 기쁨이었으며, 그 희열은 개발할 때 더 큰 노력을 할 수 있는 원동력이 되었습니다.<br/><br/>
+                프로젝트를 진행할 때도 후배들의 질문에도 막힘없이 대답할 수 있는 배경은 꾸준한 노력으로 이룬 성장일 것입니다. 저는 매순간 성장의 희열을 느끼는 개발자가 되고 싶습니다.
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/profile/wjsrn.png" alt="Web development icon" width="40" style="border-radius: 12px">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Project</h4>
+
+              <p class="service-item-text">
+                제가 한 프로젝트 중 ‘Kim Il Jeong‘이라는 프로젝트가 있습니다. 이 프로젝트는 제가 처음으로 Project Manager가 되어서 기획과 개발을 같이 진행한 프로젝트로, 프로젝트가 원활하게 진행되기 위해서 고민을 많이 했습니다. 그리고 그때마다 기획의 중요성과 프로젝트를 이끌어가는데 많은 수고와 노력이 필요하다는 것을 깨달았습니다. 개발만 하던 저에게 PM은 새로운 도전이었고, 이로 인해 기획과 개발을 둘 다 할 수 있는 인재가 되었습니다.
+
+                <br/><br/>
+                이러한 저의 노력이 소프트웨어 분야에서 발휘되어 한국 사회를 소프트웨어 중심 사회로 이끌고
+                4차 산업 혁명 시대에 핵심 역량을 발휘하는 전문가가 되겠습니다.
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/profile/mentor.png" alt="mobile app icon" width="40" style="border-radius: 12px">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Mentoring</h4>
+
+              <p class="service-item-text">
+                전공에 대해 궁금한 점이나 진로 고민이<br/>
+                있는 친구들에게 도움을 주고 있습니다. <br/>
+                저도 백엔드를 처음 시작했을 때 주변의 <br/>친구와 선배님들의 도움을 많이 받아 성장할 수 있었기 때문입니다.<br/><br/>
+                그래서 과거의 저와 같이 도움이 필요한 사람을 도와주는데 시간을 투자하고 있습니다. 때로는
+                시간이 아깝다고 생각한 적도 있었습니다. 그 시간에 공부를 하면 더 많은 것을 알 수 있을 거라는 생각 때문이었습니다.
+                하지만 가르치면서 제가 몰랐던 정보를<br/> 새롭게 알아갈 때도 있고 다시 한번 복습하게 되므로 저도 함께 성장하고 있다는 것을 알게 되었습니다.
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/profile/soccer.png" alt="camera icon" width="40" style="border-radius: 12px">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Exercise</h4>
+
+              <p class="service-item-text">
+                점심시간과 저녁 시간을 이용해 축구와 농구를 하고 있습니다. 운동을 통해 새롭게 사귄 친구도 있고, 집중력이 향상됨을 느꼈습니다.
+                더 오랜 시간 앉아서 개발할 수 있게 되었고 피로도 거의 느끼지 않을 정도로 건강하게 되었습니다.
+                <br/><br/>
+                운동을 많이 한다고 해서 공부를 소홀히 하는 것은 절대 아닙니다. 운동하지 않는 시간에는 저의 가치를
+                높이고 어제보다 더 성장하기 위해 몰입해가며 공부를 하고 있습니다. 저는 ‘할 땐 하고 놀 땐 노는’
+                그런 사람이 되기 위하여 각 상황에 항상 최선을 다합니다.
+                운동을 통해 몸이 단련되는 것처럼 성장함을 느끼며 하루를 살아가고 있습니다.
+              </p>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
+
+
+      <!--
+        - testimonials modal
+      -->
+
+      <div class="modal-container" data-modal-container>
+
+        <div class="overlay" data-overlay></div>
+
+        <section class="testimonials-modal">
+
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="modal-img-wrapper">
+            <figure class="modal-avatar-box">
+              <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" style="border-radius: 12px" data-modal-img >
+            </figure>
+
+            <img src="./assets/images/icon-quote.svg" alt="quote icon" style="border-radius: 12px">
+          </div>
+
+          <div class="modal-content">
+
+            <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+            <time datetime="2021-06-14">14 June, 2021</time>
+
+            <div data-modal-text>
+              <p>
+                Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                lot of experience
+                and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                consectetur adipiscing
+                elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+              </p>
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+
+    </article>
+
+
+    <!--
+      - #RESUME
+    -->
+
+    <article class="resume" data-page="resume">
+
+      <header>
+        <h2 class="h2 article-title">Resume</h2>
+      </header>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Education</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">대덕소프트웨어마이스터고등학교</h4>
+
+            <span>2021 — 재학중</span>
+
+            <p class="timeline-text">
+              대덕소프트웨마이스터고등학교는 소프트웨어 인재를 양성하는 마이스터고등학교입니다. <br/>
+              저는 현재 소프트웨어 개발과에 재학중입니다.
+            </p>
+
+          </li>
+
+        </ol>
+
+      </section>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Experience</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">제 8회 대한민국 SW 융합 해커톤</h4>
+
+            <span>2021.9</span>
+
+            <p class="timeline-text">
+              제가 고등학교에 입학하고 처음으로 참여한 대회입니다. <br/>
+              비록 상은 타지 못했지만 다른 대회를 위한 발판이 되었다고 생각합니다.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">DDGB IT SW 웨비나</h4>
+
+            <span>2021.9</span>
+
+            <p class="timeline-text">
+              SW 산업의 미래에 대해 생각할 수 있었던 시간이었습니다. <br/>
+              ‘현재 유망한 기술이나 트렌드만 따라가지 말고 자신의 코딩 실력을 높이는 등 기본기를 갖추라’ 라는 말을 듣고 저 자신을 되돌아 볼 수 있는 계기가 되었습니다.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">정보처리기능사(한국산업인력공단)</h4>
+
+            <span>2021.10</span>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">대덕소프트웨어마이스터고등학교 2학년 2반 반장</h4>
+
+            <span>2022.3</span>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">스마틴 앱챌린지</h4>
+
+            <span>2022.3</span>
+
+            <p class="timeline-text">
+              제가 백엔드로 처음 참여한 대회입니다. <br/>
+              개발 언어를 코틀린으로 하였는데 ‘코틀린’이라는 언어에 대해 자세히 알아갈 수 있는 시간이 되었고, <br/>
+              개발하는 도중 위도, 경도를 이용해 조회하는 api가 있었는데 로직이 생각이 나질 않아 개발하는데 어려움이 있었습니다.
+              그러나 팀원들과 함께 구글링을 해가며 결국 해결할 수 있었다. 해결했을 때의 감정은 이로 말할 수 없는 기쁨이었다.
+            </p>
+
+          </li>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">교과우수상</h4>
+
+            <span>2022.7</span>
+
+            <p class="timeline-text">
+              ‘빅데이터 분석’과 ‘성공과 직업’ 교과에서 교과 우수상을 수상하였습니다.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">소프트웨어마이스터고 연합 해커톤</h4>
+
+            <span>2022.10</span>
+
+            <p class="timeline-text">
+              다른 학교 친구들과 협업하면서 몰랐던 것들을 알아가고 지금까지 해왔던 개발이 아닌 또 다른 방법에 대해 배울 수 있었던 시간이었습니다. <br/>
+              기획과 디자인의 중요성에 대해 생각할 수 있었던 의미있는 시간이었습니다.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">대덕소프트웨어마이스터고등학교 스프링부트 스터디 팀장</h4>
+
+            <span>2022.10 - 진행중</span>
+
+            <p class="timeline-text">
+              스프링 공식문서를 읽으며 스프링 기초, 이론, 개론에 대해 하나씩 알아가고 있습니다. <br/>
+              자신이 중요하다 싶은 내용은 노션에 정리하고 있고, 일주일에 2번 만나서 정리한 내용을 발표하고 있습니다.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">KOSA-MIDAS YOUNG TALENT CHALLENGE</h4>
+
+            <span>2022.11</span>
+
+            <p class="timeline-text">
+              무박 2일 동안 진행된 대회 기간 동안 오르지 개발에 몰두했던 것 같다. 팀원들과 소통과 개발을 하니 시간이 가는 줄 몰랐습니다.<br/>
+              그러다보니 개발하는 모든 기간이 행복했고 몰입해서 개발하는 나 자신이 뿌듯했습니다.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">대덕소프트웨어마이스터고등학교 DevOps 스터디</h4>
+
+            <span>2022.11</span>
+
+            <p class="timeline-text">
+              백엔드 코드만 개발하는 개발자가 아닌 서버도 관리할 줄 아는 사람이 되고 싶어서 지원하였습니다.<br/>
+              DevOps의 정의부터 DevOps 라이프사이클에 있는 요소 하나 하나 알 수 있었습니다. <br/>
+              코드만 개발하는 저에게는 DevOps는 새로운 도전이었습니다.
+            </p>
+
+          </li>
+
+        </ol>
+
+      </section>
+
+      <section class="skill">
+
+        <h3 class="h3 skills-title">My skills</h3>
+
+        <ul class="skills-list content-card">
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Spring Boot</h5>
+              <data value="90">90%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Database</h5>
+              <data value="70">70%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Java</h5>
+              <data value="70">70%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Kotlin</h5>
+              <data value="70">70%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Git</h5>
+              <data value="60">60%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 60%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">AWS</h5>
+              <data value="30">30%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 30%;"></div>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+
+
+    <!--
+      - #PORTFOLIO
+    -->
+
+    <article class="portfolio" data-page="portfolio">
+
+      <header>
+        <h2 class="h2 article-title">Portfolio</h2>
+      </header>
+
+      <section class="projects">
+
+        <ul class="filter-list">
+
+          <li class="filter-item">
+            <button class="active" data-filter-btn>All</button>
+          </li>
+
+        </ul>
+
+        <div class="filter-select-box">
+
+          <button class="filter-select" data-select>
+
+            <div class="select-value" data-selecct-value>Select category</div>
+
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+
+          </button>
+
+          <ul class="select-list">
+
+            <li class="select-item">
+              <button data-select-item>All</button>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="project-list">
+
+          <li class="project-item  active" data-filter-item data-category="backend">
+            <a href="https://www.notion.so/2c4905a8eb284a89b2d3003ee903f257" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="assets/images/project/cowlq.png" alt="finance" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">채집 - 비건 식당 지도</h3>
+
+              <p class="project-category">Backend</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="backend">
+            <a href="https://www.notion.so/Kim-Il-Jeong-7c08a210aeda4384919cf6ab25a90e33" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="assets/images/project/kimiljeong.png" alt="finance" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Kim Il Jeong - 자신의 일정은 자신이 관리</h3>
+
+              <p class="project-category">Backend & DevObs & PM</p>
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="backend">
+            <a href="https://www.notion.so/XQUARE-70957e42e0b04ec9b9d598576bbf7fa5" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="assets/images/project/xquare.png" alt="finance" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">XQUARE - 본교 프로젝트 대통합 서비스</h3>
+
+              <p class="project-category">Backend</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="backend">
+            <a href="https://www.notion.so/DECONHUB-53b363e49f8749f19d1069fdf24b16bd" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="assets/images/project/elzhsgjqm.png" alt="finance" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">DECONHUB - 대회와 스터디로 성장을!</h3>
+
+              <p class="project-category">Backend & Frontend & DevObs & PM</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="backend">
+            <a href="https://www.notion.so/Pick-1dd971230cbb4cb49eeaaa6a58b35f8d" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="assets/images/project/pick.png" alt="finance" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">PICK - 출석부 단편화 시스템</h3>
+
+              <p class="project-category">Backend</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="backend">
+            <a href="https://www.notion.so/Stocker-090e3b743c6d4030a5345f5107bd1a2e" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="assets/images/project/stocker.png" alt="finance" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Stocker - 개인투자자를 위한 주식 투자 앱</h3>
+
+              <p class="project-category">Backend & DevObs & PM</p>
+
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+
+
+    <!--
+      - #Others
+    -->
+
+    <article class="others" data-page="others">
+
+      <header>
+        <h2 class="h2 article-title">Others</h2>
+      </header>
+
+      <!--
+ - service
+-->
+
+      <section class="service">
+
+        <h3 class="h3 service-title">Club</h3>
+
+        <ul class="service-list">
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/club/esd.png
+                " alt="design icon" width="60" style="border-radius: 12px">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">전공 동아리 ESD</h4>
+
+              <p class="service-item-text">
+                대덕소프트웨어마이스터고등학교 교내 임베디드 동아리입니다. <br/>
+                2021년 3월부터 2021년 10월까지 동아리 임원으로 참여하였습니다.
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/club/submit.png
+                " alt="design icon" width="60" style="border-radius: 12px">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">전공 동아리 Submit</h4>
+
+              <p class="service-item-text">
+                대덕소프트웨어마이스터고등학교 교내 Web 동아리입니다.<br/>
+                2021년 10월부터 2022년 3월까지 동아리 임원으로 참여하였습니다.
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/club/wjd.png
+                " alt="design icon" width="60" style="border-radius: 12px">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">전공 동아리 정(正)</h4>
+
+              <p class="service-item-text">
+                대덕소프트웨어마이스터고등학교 교내 Web 동아리입니다.<br/>
+                2021년 3월부터 동아리 임원으로 참여하였습니다.
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/club/xquare.png
+                " alt="design icon" width="60" style="border-radius: 12px">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">본교 대통합 서비스 스퀘어(XQUARE)</h4>
+
+              <p class="service-item-text">
+                대덕SW마이스터고등학교 프로젝트 대통합 서비스, XQUARE입니다.<br/>
+                2022년 6월부터 참여하였습니다.
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/club/pick.png
+                " alt="design icon" width="60" style="border-radius: 12px">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">출석부 단편화 시스템 픽(Pick)</h4>
+
+              <p class="service-item-text">
+                종이로 이루어지던 방과 후 출석부를 온라인 출석부로 개선해 이를 웹 서비스로 해결하려는 프로젝트입니다.<br/>
+                2022년 10월부터 참여하였습니다.
+              </p>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
+
+      <!--
+        - testimonials
+      -->
+
+      <section>
+
+        <h3 class="h3 testimonials-title">Certificate</h3>
+
+        <ul class="testimonials-list has-scrollbar">
+
+          <li>
+            <div class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <img src="./assets/images/certificate/wjdqhcjfl.jpg" alt="Emily evans" width="60" data-testimonials-avatar
+                     style="border-radius: 12px">
+              </figure>
+
+              <h4 class="h4 testimonials-item-title">정보처리기능사 취득</h4>
+
+              <div class="service-item-text" data-testimonials-text>
+                <p>
+                  정보기술 분야의 기능사 자격증으로 정보처리에<br/>
+                  있어서 가장 기초적인 것을 물어보는 시험입니다.
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+
+          <li>
+            <div class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <img src="./assets/images/certificate/sqld.jpg" alt="Emily evans" width="60" data-testimonials-avatar
+                     style="border-radius: 12px">
+              </figure>
+
+              <h4 class="h4 testimonials-item-title">SQLD 준비중</h4>
+
+              <div class="service-item-text" data-testimonials-text>
+                <p>
+                  "SQL 개발자"가 정식 명칭이며, 'SQL Developer'<br/>
+                  이라는 뜻으로인해 SQLD 자격으로도 많이 불립니다.
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+      <!--
+        - testimonials
+      -->
+
+      <section>
+
+        <h3 class="h3 testimonials-title">Award</h3>
+
+        <ul class="testimonials-list has-scrollbar">
+
+          <li>
+            <div class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <img src="./assets/images/award/stac.jpg" alt="Emily evans" width="60" data-testimonials-avatar
+                     style="border-radius: 12px">
+              </figure>
+
+              <h4 class="h4 testimonials-item-title">STA+C 2022 생활정보부문</h4>
+
+              <div class="service-item-text" data-testimonials-text>
+                <p>
+                  정보기술 분야의 기능사 자격증으로 정보처리에<br/>
+                  있어서 가장 기초적인 것을 물어보는 시험입니다.
+                </p>
+              </div>
+
+            </div>
+          </li>
+        </ul>
+
+      </section>
+
+    </article>
+
+  </div>
+
+</main>
+
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
